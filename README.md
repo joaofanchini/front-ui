@@ -9,4 +9,5 @@ To run then, just download these files in a folder and `open up in your Browser`
 
 # Branches
 [Cloud Animation Effect](https://github.com/joaofanchini/front-ui/tree/cloud-animation-effect).
+
 [Joker | Movie Landing Page](https://github.com/joaofanchini/front-ui/tree/movie-landing-page).
