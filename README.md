@@ -5,7 +5,7 @@ This repository was created just to training habilities related front like css/j
 Each branch off this repository corresponding with a different component/idea created.
 
 # Run
-To run then, just download these files in a folder and 'open up on your Browser'.
+To run then, just download these files in a folder and `open up on your Browser`.
 
 # Branches
 [Cloud Animation Effect](https://github.com/joaofanchini/front-ui/tree/cloud-animation-effect).
