@@ -3,7 +3,7 @@ function toggle() {
     let trailer = document.querySelector('.trailer');
     trailer.classList.toggle('active');
 
-    let video = document.querySelector(video);
+    let video = document.querySelector('video');
     video.currentTime = 0;
     video.pause();
 
