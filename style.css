@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+}
+.wave {
+  position: relative;
+}
+
+/*Com css, sempre vale a pena diferenciar
+ itens com animações diferentes, criando uma variável no próprio elemento html,
+ pois a sacada é diferenciar o tempo da animação por essa variável. Nesse caso, o tempo não é da animação
+ mas sim o tempo para a animação começar*/
+.wave span {
+  position: relative;
+  display: inline-block;
+  color: #fff;
+  font-size: 2em;
+  animation: animate 1.5s ease infinite;
+  animation-delay: calc(
+    0.1s * var(--i)
+  ); /*Sempre utilizar função calc para operações aritméticas*/
+}
+
+@keyframes animate {
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-40px);
+  }
+  60% {
+    transform: translateY(-3px);
+  }
+}
