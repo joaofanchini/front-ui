@@ -8,6 +8,6 @@ Each branch off this repository corresponding with a different component/idea cr
 To run then, just download these files in a folder and open up the `index.html` file in your `Browser`.
 
 # Branches
-[Cloud Animation Effect](https://github.com/joaofanchini/front-ui/tree/cloud-animation-effect).
-[Fullscreen Slider using flexbox](https://github.com/joaofanchini/front-ui/tree/fullscreen-slider-using-flex-box).
-[Joker | Movie Landing Page](https://github.com/joaofanchini/front-ui/tree/movie-landing-page).
+- [Cloud Animation Effect](https://github.com/joaofanchini/front-ui/tree/cloud-animation-effect).
+- [Fullscreen Slider using flexbox](https://github.com/joaofanchini/front-ui/tree/fullscreen-slider-using-flex-box).
+- [Joker | Movie Landing Page](https://github.com/joaofanchini/front-ui/tree/movie-landing-page).
