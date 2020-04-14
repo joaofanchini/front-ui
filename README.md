@@ -9,5 +9,5 @@ To run then, just download these files in a folder and open up the `index.html` 
 
 # Branches
 [Cloud Animation Effect](https://github.com/joaofanchini/front-ui/tree/cloud-animation-effect).
-
+[Fullscreen Slider using flexbox](https://github.com/joaofanchini/front-ui/tree/fullscreen-slider-using-flex-box).
 [Joker | Movie Landing Page](https://github.com/joaofanchini/front-ui/tree/movie-landing-page).
