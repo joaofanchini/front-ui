@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+section {
+  background-color: rgb(40, 41, 41);
+  color: white;
+}
+
+section h2 {
+  font-size: 2.5em;
+  padding: 10px;
+}
+
+section p {
+  font-size: 1.2em;
+  padding: 10px;
+}
+
+::-webkit-scrollbar {
+  /*Pseudo elemento do CSS que represetna a scroll bar, como vamos criar uma customizada, n precisamos desta*/
+  width: 0;
+}
+
+#scrollPath {
+  /*Base para o scroll bar*/
+  position: fixed; /*É interessante utilizar top and right quando utilizarmos position fixed ou absolute*/
+  top: 0;
+  right: 0; /*Colado no lado direito, iniciando na parte superior*/
+  width: 10px;
+  height: 100vh;
+  background: rgba(255, 255, 255, 0.05);
+}
+
+#progressBar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 10px;
+  background: linear-gradient(to top, rgb(210, 241, 106), rgb(228, 34, 27));
+  animation: animate 5s linear infinite;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+@keyframes animate {
+  0%,
+  100% {
+    filter: hue-rotate(
+      0deg
+    ); /*Vai aplicando filtro de cores sobre a cor utilizada
+    de modo que como utilizamos gradiente, o efeito é de multiplas cores trocando*/
+  }
+  50% {
+    filter: hue-rotate(360deg);
+  }
+}
