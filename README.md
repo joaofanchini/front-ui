@@ -8,6 +8,8 @@ Each branch off this repository corresponding with a different component/idea cr
 To run then, just download these files in a folder and open up the `index.html` file in your `Browser`.
 
 # Branches
+- [3D Isometric Social Media Icons](https://github.com/joaofanchini/front-ui/tree/3d-isometrict-social-media-icon-hover).
+- [Analog Clock](https://github.com/joaofanchini/front-ui/tree/analog-clock).
 - [Cloud Animation Effect](https://github.com/joaofanchini/front-ui/tree/cloud-animation-effect).
 - [Creative Page Scroll - Progress Bar](https://github.com/joaofanchini/front-ui/tree/creative-page-scroll-progress-bar).
 - [Fullscreen Slider using flexbox](https://github.com/joaofanchini/front-ui/tree/fullscreen-slider-using-flex-box).
